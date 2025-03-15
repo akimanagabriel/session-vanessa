@@ -49,3 +49,7 @@ async function updateModule(id, { name, credit, marks }) {
 // deleteModule(2);
 // updateModule(4, { name: "ReactJs", credit: 70, marks: 80 });
 // getModules();
+
+module.exports = {
+  pool,
+};
