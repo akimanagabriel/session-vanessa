@@ -1,0 +1,30 @@
+body {
+  background: rgba(0, 0, 0, 0.087);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  height: 30px;
+  width: 93.5%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+button {
+  height: 35px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: indigo;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
