@@ -3,6 +3,7 @@ import Login from "./components/Login";
 import AboutUs from "./components/AboutUs";
 import "./styles.css";
 import { Routes, Route, Link } from "react-router-dom";
+import ModuluesList from "./components/ModuluesList";
 
 function App() {
   const [username, setUsername] = useState("Vannessa");
@@ -46,6 +47,9 @@ function App() {
               aboutus
             </Link>
           </li>
+          <li>
+            <Link to={"/courses"}>All modules</Link>
+          </li>
         </ul>
       </nav>
       <div className="flex">
@@ -69,6 +73,10 @@ function App() {
             <Route
               path="/aboutus"
               element={<AboutUs />}
+            />
+            <Route
+              path="/courses"
+              element={<ModuluesList />}
             />
             <Route
               path="*"
