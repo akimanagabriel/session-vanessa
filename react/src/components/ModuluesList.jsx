@@ -38,6 +38,34 @@ export default function ModuluesList() {
           })}
         </tbody>
       </table>
+
+      <h1 className="mt-5 text-3xl font-semibold">
+        Create a new module (un finished to be continued)
+      </h1>
+      <form action="">
+        <input
+          className="px-2 py-1 border"
+          type="text"
+          placeholder="module name"
+        />{" "}
+        <br />
+        <input
+          className="px-2 py-1 border my-2"
+          type="text"
+          placeholder="module credits"
+        />{" "}
+        <br />
+        <input
+          className="px-2 py-1 border"
+          type="text"
+          placeholder="module marks"
+        />{" "}
+        <br />
+        <br />
+        <button className="px-2 py-1 border bg-red-900 text-white">
+          Save module
+        </button>
+      </form>
     </div>
   );
 }
